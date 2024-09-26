@@ -1,0 +1,244 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "",
+      "run": "timeout 1 ./roman 1",
+      "input": "",
+      "output": "I",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "timeout 1 ./roman I",
+      "input": "",
+      "output": "1",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "timeout 1 ./roman 10",
+      "input": "",
+      "output": "X",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "timeout 1 ./roman 3333",
+      "input": "",
+      "output": "MMMCCCXXXIII",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "timeout 1 ./roman DCLXVI",
+      "input": "",
+      "output": "666",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6",
+      "setup": "",
+      "run": "timeout 1 ./roman 1444",
+      "input": "",
+      "output": "MCDXLIV",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7",
+      "setup": "",
+      "run": "timeout 1 ./roman MCDXLIV",
+      "input": "",
+      "output": "1444",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 8",
+      "setup": "",
+      "run": "timeout 1 ./roman 888",
+      "input": "",
+      "output": "DCCCLXXXVIII",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 9",
+      "setup": "",
+      "run": "timeout 1 ./roman CMLXXXIX",
+      "input": "",
+      "output": "989",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 10",
+      "setup": "",
+      "run": "timeout 1 ./roman 989",
+      "input": "",
+      "output": "CMLXXXIX",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 11",
+      "setup": "",
+      "run": "timeout 1 ./roman MMMCMXCIX",
+      "input": "",
+      "output": "3999",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 12",
+      "setup": "",
+      "run": "timeout 1 ./roman 3999",
+      "input": "",
+      "output": "MMMCMXCIX",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 13",
+      "setup": "",
+      "run": "timeout 1 ./roman MMMDCCCLXXX",
+      "input": "",
+      "output": "3880",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 14",
+      "setup": "",
+      "run": "timeout 1 ./roman 3880",
+      "input": "",
+      "output": "MMMDCCCLXXX",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 15",
+      "setup": "",
+      "run": "timeout 1 ./roman 4000",
+      "input": "",
+      "output": "wrong integer",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 16",
+      "setup": "",
+      "run": "timeout 1 ./roman 98765432101234567",
+      "input": "",
+      "output": "wrong integer",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 17",
+      "setup": "",
+      "run": "timeout 1 ./roman XXXX",
+      "input": "",
+      "output": "wrong integer",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 18",
+      "setup": "",
+      "run": "timeout 1 ./roman XXL",
+      "input": "",
+      "output": "wrong integer",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 19",
+      "setup": "",
+      "run": "timeout 1 ./roman IL",
+      "input": "",
+      "output": "wrong integer",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 20",
+      "setup": "",
+      "run": "timeout 1 ./roman 1XI",
+      "input": "",
+      "output": "wrong integer",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 21",
+      "setup": "",
+      "run": "timeout 1 ./roman MD3X",
+      "input": "",
+      "output": "wrong integer",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 23",
+      "setup": "",
+      "run": "timeout 1 ./roman -123",
+      "input": "",
+      "output": "wrong integer",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 24",
+      "setup": "",
+      "run": "timeout 1 ./roman FFF",
+      "input": "",
+      "output": "wrong integer",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 25",
+      "setup": "",
+      "run": "timeout 1 ./roman 123.45",
+      "input": "",
+      "output": "wrong integer",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
